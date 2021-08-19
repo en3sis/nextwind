@@ -1,5 +1,5 @@
 ## General
-Typescript base proejct with Next.js as React Framework, Tailwind CSS as Style Framework, and Zustand for State Management.
+TypeScript base proejct with Next.js as React Framework, Tailwind CSS as Style Framework, and Zustand for State Management.
 
 Features:
  - Enabled JIT for Tailwind
