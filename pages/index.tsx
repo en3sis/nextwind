@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import useStore from '@/store/main.store' // https://nextjs.org/docs/advanced-features/module-path-aliases
-import { motion } from 'framer-motion';
+import { motion } from 'framer-motion'
 
 export default function Home() {
   const state = useStore()
@@ -26,11 +26,10 @@ export default function Home() {
             left: -50,
             right: 50,
             bottom: 50,
-          }}
-        >
+          }}>
           Update
         </motion.button>
       </main>
     </div>
-  );
+  )
 }
