@@ -1,22 +1,31 @@
-## General
-TypeScript base proejct with Next.js as React Framework, Tailwind CSS as Style Framework, and Zustand for State Management.
+# Welcome to 🍃 [Nextwind](https://github.com/en3sis/nextwind)!
+
+TypeScript base project with Next.JS as React Framework, Tailwind CSS as Style Framework, and Zustand for State Management.
+
+## 🧬 General
 
 Features:
- - Enabled JIT for Tailwind
- - Absolute Imports and Module path aliases for Next.js
- - Initial state example for Zustand
 
-Other depedencies:
-  - Zustand: https://github.com/pmndrs/zustand
-  - Tailwind CSS: https://tailwindcss.com/
+- Absolute Imports and Module path aliases for Next.js
+- Initial state example for Zustand
+- Prettier for code formatting
+- ESLint rules
 
+Other dependencies:
 
-## Getting Started
+- Zustand: https://github.com/pmndrs/zustand
+- Tailwind CSS: https://tailwindcss.com/
+
+---
+
+## 🪬 Getting Started
 
 First, run the development server:
 
 ```bash
+# Install dependencies
 npm install
+
 # then:
 npm run dev
 # or

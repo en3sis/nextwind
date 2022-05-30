@@ -7,7 +7,7 @@ type State = {
 
 export const useStore = create<State>((set) => ({
   members: 10,
-  update: (newValue) => set(() => ({members: newValue}))
+  update: (newValue) => set(() => ({ members: newValue })),
 }))
 
 export default useStore
